@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Uni type and colour specimen</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Anek+Bangla:wght@400;500;600;700&family=Hind+Siliguri:wght@400;500;600;700&family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#1b1918; --muted:#6b6966; --line:#e8e6e3; --bg:#fff; --orange:#f6851f; --blue:#164c9e; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --ink:#f5f4f2; --muted:#a3a19d; --line:#262524; --bg:#000; --blue:#7fa8e8; } }
+  :root[data-theme="dark"] { --ink:#f5f4f2; --muted:#a3a19d; --line:#262524; --bg:#000; --blue:#7fa8e8; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family:Geist, system-ui, sans-serif; }
+  main { max-width:1120px; margin:0 auto; padding:40px 16px 80px; }
+  h1 { font-size:28px; font-weight:600; letter-spacing:-0.02em; margin:0 0 4px; }
+  h2 { font-size:15px; font-weight:600; margin:48px 0 16px; color:var(--muted); }
+  p.note { color:var(--muted); font-size:14px; line-height:1.5; margin:0; max-width:64ch; }
+  .swatches { display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:12px; }
+  .sw { border:1px solid var(--line); border-radius:12px; overflow:hidden; font-size:13px; }
+  .sw div:first-child { height:72px; }
+  .sw div:last-child { padding:10px 12px; line-height:1.45; }
+  .sw b { font-weight:600; display:block; }
+  .sw code { color:var(--muted); font-size:12px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:24px; }
+  .col { border-top:1px solid var(--line); padding-top:16px; }
+  .col .name { font-family:Geist; font-size:13px; font-weight:600; margin-bottom:12px; }
+  .display { font-size:34px; font-weight:600; line-height:1.3; letter-spacing:-0.01em; margin:0 0 8px; }
+  .display .en { font-family:Geist; letter-spacing:-0.03em; display:block; font-size:30px; line-height:1.15; margin-bottom:6px; }
+  .body { font-size:17px; line-height:1.7; margin:0 0 12px; }
+  .small { font-size:14px; line-height:1.65; color:var(--muted); margin:0 0 12px; }
+  .conj { font-size:24px; line-height:1.75; margin:0; outline:1px dashed color-mix(in srgb, var(--orange) 40%, transparent); }
+  .btns { display:flex; gap:12px; flex-wrap:wrap; }
+  .btn { min-height:48px; padding:0 20px; border-radius:12px; display:inline-flex; align-items:center; font-weight:600; font-size:16px; border:0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Uni: extracted Briddhi tokens</h1>
+  <p class="note">Pulled from briddhi.net/learn-to-invest stylesheets and the logo file, 29 Sep 2026. Toggle your OS dark mode to see the dark column values.</p>
+
+  <h2>Colour, as found</h2>
+  <div class="swatches">
+    <div class="sw"><div style="background:#f6851f"></div><div><b>Briddhi orange</b><code>#F6851F</code><br>Buttons, links, active dots</div></div>
+    <div class="sw"><div style="background:#df7318"></div><div><b>Orange pressed</b><code>#DF7318</code><br>Button hover</div></div>
+    <div class="sw"><div style="background:#164c9e"></div><div><b>Logo blue</b><code>#164C9E</code><br>Wordmark only (not in CSS)</div></div>
+    <div class="sw"><div style="background:#1b1918"></div><div><b>Ink</b><code>#1B1918</code><br>Learn page text (warm)</div></div>
+    <div class="sw"><div style="background:#182031"></div><div><b>Nav ink</b><code>#182031</code><br>Nav and menus (cool)</div></div>
+    <div class="sw"><div style="background:#151a20"></div><div><b>Deep slate</b><code>#151A20 → #27323E</code><br>Footer panel, CTA band</div></div>
+    <div class="sw"><div style="background:#737373"></div><div><b>Muted</b><code>#737373</code><br>Secondary text</div></div>
+    <div class="sw"><div style="background:#fcf2e9"></div><div><b>Peach wash</b><code>#FCF2E9</code><br>Hero gradient end</div></div>
+    <div class="sw"><div style="background:#fff6ed"></div><div><b>Orange tint</b><code>#FFF6ED</code><br>Menu hover</div></div>
+    <div class="sw"><div style="background:#eeedec"></div><div><b>Hairline</b><code>#EEEDEC</code><br>Row dividers, chips</div></div>
+    <div class="sw"><div style="background:#f4f7fb"></div><div><b>Cool surface</b><code>#F4F7FB</code><br>Footer background</div></div>
+    <div class="sw"><div style="background:#16735b"></div><div><b>Success green</b><code>#16735B</code><br>Newsletter success</div></div>
+  </div>
+
+  <h2>Orange and text: the contrast problem</h2>
+  <div class="btns">
+    <span class="btn" style="background:#f6851f;color:#fff">Continue watching · 2.53:1 ✗</span>
+    <span class="btn" style="background:#f6851f;color:#1b1918">Continue watching · 6.92:1 ✓</span>
+    <span class="btn" style="background:#164c9e;color:#fff">Continue watching · 8.20:1 ✓</span>
+  </div>
+
+  <h2>Bangla candidates beside Geist (Latin)</h2>
+  <div class="grid">
+    <div class="col" style="font-family:'Anek Bangla', Geist">
+      <div class="name">Anek Bangla</div>
+      <p class="display"><span class="en">Investing, explained simply.</span>বিনিয়োগ, সহজ করে বোঝানো।</p>
+      <p class="body">মিউচুয়াল ফান্ড হলো অনেক বিনিয়োগকারীর টাকা একসাথে করে পেশাদারভাবে পরিচালিত একটি তহবিল। NAV প্রতিদিন বদলায়।</p>
+      <p class="small">প্রশ্ন ৩ এর ৯ · ১০ XP · স্ট্রিক ৭ দিন</p>
+      <p class="conj">ক্ষ ঙ্ক ন্ত্র স্ট্র্যা ক্স জ্ঞ ষ্ণ দ্ধি ৠ</p>
+    </div>
+    <div class="col" style="font-family:'Hind Siliguri', Geist">
+      <div class="name">Hind Siliguri</div>
+      <p class="display"><span class="en">Investing, explained simply.</span>বিনিয়োগ, সহজ করে বোঝানো।</p>
+      <p class="body">মিউচুয়াল ফান্ড হলো অনেক বিনিয়োগকারীর টাকা একসাথে করে পেশাদারভাবে পরিচালিত একটি তহবিল। NAV প্রতিদিন বদলায়।</p>
+      <p class="small">প্রশ্ন ৩ এর ৯ · ১০ XP · স্ট্রিক ৭ দিন</p>
+      <p class="conj">ক্ষ ঙ্ক ন্ত্র স্ট্র্যা ক্স জ্ঞ ষ্ণ দ্ধি ৠ</p>
+    </div>
+    <div class="col" style="font-family:'Noto Sans Bengali', Geist">
+      <div class="name">Noto Sans Bengali</div>
+      <p class="display"><span class="en">Investing, explained simply.</span>বিনিয়োগ, সহজ করে বোঝানো।</p>
+      <p class="body">মিউচুয়াল ফান্ড হলো অনেক বিনিয়োগকারীর টাকা একসাথে করে পেশাদারভাবে পরিচালিত একটি তহবিল। NAV প্রতিদিন বদলায়।</p>
+      <p class="small">প্রশ্ন ৩ এর ৯ · ১০ XP · স্ট্রিক ৭ দিন</p>
+      <p class="conj">ক্ষ ঙ্ক ন্ত্র স্ট্র্যা ক্স জ্ঞ ষ্ণ দ্ধি ৠ</p>
+    </div>
+  </div>
+</main>
+</body>
+</html>
