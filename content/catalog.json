@@ -1,0 +1,347 @@
+{
+  "version": 1,
+  "notes": [
+    "Source of truth for series and videos; the database is seeded from this file.",
+    "Series are listed in the default learning order. Videos are listed in teaching order.",
+    "Bangla titles and all descriptions are draft copy pending content review.",
+    "A video reaches learners only when published is true AND its quiz bank is published.",
+    "interview: true marks interview-style episodes, which are quizzed on principles only, never a guest's view on a market, asset or product."
+  ],
+  "series": [
+    {
+      "id": "mutual-fund-101",
+      "titleEn": "Mutual Fund 101",
+      "titleBn": "মিউচুয়াল ফান্ড ১০১",
+      "partner": "EDGE",
+      "category": "Funds & ETFs",
+      "youtubePlaylistId": "PLbR9GL5jrlAaHmJ-w-3wKdmQ2qJav-t3U",
+      "descriptionEn": "The foundation. What a mutual fund is, how NAV works, and how to start, one idea per episode.",
+      "descriptionBn": "ভিত্তি থেকে শুরু। মিউচুয়াল ফান্ড কী, NAV কীভাবে কাজ করে আর কীভাবে শুরু করবেন, প্রতি পর্বে একটি ধারণা।",
+      "videos": [
+        {
+          "id": "mf101-00-series-intro",
+          "episode": 0,
+          "youtubeId": "-SFJb1uzq8k",
+          "titleEn": "Series intro",
+          "titleBn": "সিরিজ পরিচিতি",
+          "published": true
+        },
+        {
+          "id": "mf101-01-what-is-a-mutual-fund",
+          "episode": 1,
+          "youtubeId": "aOIVLxjDe3Y",
+          "titleEn": "What is a mutual fund",
+          "titleBn": "মিউচুয়াল ফান্ড কী",
+          "published": true
+        },
+        {
+          "id": "mf101-02-what-is-nav",
+          "episode": 2,
+          "youtubeId": "0cWdKh2t5Jg",
+          "titleEn": "What is NAV",
+          "titleBn": "NAV কী",
+          "published": true
+        },
+        {
+          "id": "mf101-03-open-and-closed-ended-funds",
+          "episode": 3,
+          "youtubeId": "thM31u3IWHA",
+          "titleEn": "Open-ended & closed-ended funds",
+          "titleBn": "ওপেন-এন্ড ও ক্লোজড-এন্ড ফান্ড",
+          "published": true
+        },
+        {
+          "id": "mf101-04-sip-and-lumpsum",
+          "episode": 4,
+          "youtubeId": "TseSLK3Egg0",
+          "titleEn": "SIP & lumpsum",
+          "titleBn": "SIP ও এককালীন বিনিয়োগ",
+          "published": true
+        },
+        {
+          "id": "mf101-05-taka-cost-averaging",
+          "episode": 5,
+          "youtubeId": "UoK4UENaFxk",
+          "titleEn": "Taka cost averaging",
+          "titleBn": "টাকা কস্ট অ্যাভারেজিং",
+          "published": true
+        },
+        {
+          "id": "mf101-06-types-of-mutual-funds",
+          "episode": 6,
+          "youtubeId": "qYOa75ZmOk0",
+          "titleEn": "Types of mutual funds",
+          "titleBn": "মিউচুয়াল ফান্ডের ধরন",
+          "published": true
+        },
+        {
+          "id": "mf101-07-what-is-a-custodian",
+          "episode": 7,
+          "youtubeId": "HLVkw2SFCE8",
+          "titleEn": "What is a custodian",
+          "titleBn": "কাস্টোডিয়ান কী",
+          "published": true
+        },
+        {
+          "id": "mf101-08-what-is-a-trustee",
+          "episode": 8,
+          "youtubeId": "HBSLi2amer4",
+          "titleEn": "What is a trustee",
+          "titleBn": "ট্রাস্টি কী",
+          "published": true
+        },
+        {
+          "id": "mf101-09-where-mutual-funds-invest",
+          "episode": 9,
+          "youtubeId": "puB8rGCEM3s",
+          "titleEn": "Where mutual funds invest",
+          "titleBn": "মিউচুয়াল ফান্ড কোথায় বিনিয়োগ করে",
+          "published": true
+        },
+        {
+          "id": "mf101-10-expense-ratio",
+          "episode": 10,
+          "youtubeId": "Qx_fl-hHdJo",
+          "titleEn": "Expense ratio",
+          "titleBn": "এক্সপেন্স রেশিও",
+          "published": true
+        },
+        {
+          "id": "mf101-11-why-invest-in-mutual-funds",
+          "episode": 11,
+          "youtubeId": "Cv-G2EohcXQ",
+          "titleEn": "Why invest in mutual funds",
+          "titleBn": "কেন মিউচুয়াল ফান্ডে বিনিয়োগ করবেন",
+          "published": true
+        },
+        {
+          "id": "mf101-12-when-to-start-investing",
+          "episode": 12,
+          "youtubeId": "gplKHtssPwY",
+          "titleEn": "When to start investing",
+          "titleBn": "কখন বিনিয়োগ শুরু করবেন",
+          "published": true
+        }
+      ]
+    },
+    {
+      "id": "investaloy",
+      "titleEn": "Investaloy",
+      "titleBn": "ইনভেস্টালয়",
+      "partner": "Investaloy",
+      "category": "Funds & ETFs",
+      "youtubePlaylistId": null,
+      "descriptionEn": "Open-end funds in practice: the types, who runs them, and how to choose and invest.",
+      "descriptionBn": "হাতে-কলমে ওপেন-এন্ড ফান্ড: ধরন, কারা পরিচালনা করে, আর কীভাবে বাছাই ও বিনিয়োগ করবেন।",
+      "videos": [
+        {
+          "id": "investaloy-01-types-and-risk",
+          "episode": 1,
+          "youtubeId": "soeiaGkZwJw",
+          "titleEn": "Types of open-end funds and their risk profiles",
+          "titleBn": "ওপেন-এন্ড ফান্ডের ধরন ও তাদের ঝুঁকি",
+          "published": true
+        },
+        {
+          "id": "investaloy-02-who-manages-funds",
+          "episode": 2,
+          "youtubeId": "j7V-XX3CuPQ",
+          "titleEn": "Which institutions manage open-end funds",
+          "titleBn": "কোন প্রতিষ্ঠান ওপেন-এন্ড ফান্ড পরিচালনা করে",
+          "published": true
+        },
+        {
+          "id": "investaloy-03-choosing-a-fund",
+          "episode": 3,
+          "youtubeId": "RA4EVgBVSb0",
+          "titleEn": "Choosing an open-end fund",
+          "titleBn": "ওপেন-এন্ড ফান্ড বাছাই",
+          "published": true
+        },
+        {
+          "id": "investaloy-04-how-to-invest",
+          "episode": 4,
+          "youtubeId": "Mvkjrx13gH8",
+          "titleEn": "How to invest in open-end funds",
+          "titleBn": "ওপেন-এন্ড ফান্ডে কীভাবে বিনিয়োগ করবেন",
+          "published": true
+        },
+        {
+          "id": "investaloy-05-1000-taka-formula",
+          "episode": 5,
+          "youtubeId": "s142p80obQ8",
+          "titleEn": "The ৳1,000 investment formula",
+          "titleBn": "১,০০০ টাকার Investment Formula",
+          "published": true
+        }
+      ]
+    },
+    {
+      "id": "kosh-faq",
+      "titleEn": "KOSH FAQ",
+      "titleBn": "KOSH FAQ",
+      "partner": "KOSH",
+      "category": "Investments",
+      "youtubePlaylistId": null,
+      "descriptionEn": "Short answers to the questions new investors ask most.",
+      "descriptionBn": "নতুন বিনিয়োগকারীদের সবচেয়ে বেশি জিজ্ঞাসিত প্রশ্নের ছোট উত্তর।",
+      "videos": [
+        {
+          "id": "kosh-01-alternative-investments",
+          "episode": 1,
+          "youtubeId": "WpabttjsOts",
+          "titleEn": "The truth about alternative investments",
+          "titleBn": "বিকল্প বিনিয়োগের আসল কথা",
+          "published": true
+        },
+        {
+          "id": "kosh-02-fake-experts",
+          "episode": 2,
+          "youtubeId": "7237XHUxGv4",
+          "titleEn": "Stop following fake investment experts",
+          "titleBn": "ভুয়া বিনিয়োগ বিশেষজ্ঞদের অনুসরণ বন্ধ করুন",
+          "published": true,
+          "interview": true
+        },
+        {
+          "id": "kosh-03-halal-investment",
+          "episode": 3,
+          "youtubeId": "WzqX_TMrYas",
+          "titleEn": "Halal investment: what to check",
+          "titleBn": "হালাল বিনিয়োগ: কী যাচাই করবেন",
+          "published": true,
+          "interview": true
+        },
+        {
+          "id": "kosh-04-biggest-beginner-mistake",
+          "episode": 4,
+          "youtubeId": "ZaAQFtmok8s",
+          "titleEn": "The biggest beginner mistake",
+          "titleBn": "নতুনদের সবচেয়ে বড় ভুল",
+          "published": true
+        }
+      ]
+    },
+    {
+      "id": "briddhir-kotha",
+      "titleEn": "Briddhir Kotha",
+      "titleBn": "বৃদ্ধির কথা",
+      "partner": "Ekush",
+      "category": "Market",
+      "youtubePlaylistId": "PLbR9GL5jrlAZ3KwJWojBI4sqO23VLtuem",
+      "descriptionEn": "Long conversations with people who shape Bangladesh's markets. Quizzes cover the principles, never a guest's predictions.",
+      "descriptionBn": "বাংলাদেশের বাজার নিয়ে যাঁরা কাজ করেন, তাঁদের সঙ্গে দীর্ঘ আলাপ। প্রশ্ন থাকে মূলনীতি নিয়ে, অতিথির পূর্বাভাস নিয়ে নয়।",
+      "videos": [
+        {
+          "id": "bk-01-alternative-investing-101",
+          "episode": 1,
+          "youtubeId": "IehmS7lBX3w",
+          "titleEn": "Alternative Investing 101: The Bangladesh story",
+          "titleBn": "বিকল্প বিনিয়োগ ১০১: বাংলাদেশের গল্প",
+          "published": true,
+          "interview": true
+        },
+        {
+          "id": "bk-02-real-estate-101",
+          "episode": 2,
+          "youtubeId": "iXCqZ-RjVfo",
+          "titleEn": "Real Estate 101 ft. CPDL",
+          "titleBn": "রিয়েল এস্টেট ১০১",
+          "published": true,
+          "interview": true
+        },
+        {
+          "id": "bk-03-a-chairmans-take",
+          "episode": 3,
+          "youtubeId": "Md96BqW436E",
+          "titleEn": "A chairman's take on Bangladesh",
+          "titleBn": "বাংলাদেশ নিয়ে একজন চেয়ারম্যানের ভাবনা",
+          "published": true,
+          "interview": true
+        },
+        {
+          "id": "bk-04-mastering-personal-finance",
+          "episode": 4,
+          "youtubeId": "7P4xhQ31_LE",
+          "titleEn": "Mastering personal finance",
+          "titleBn": "ব্যক্তিগত অর্থব্যবস্থাপনায় দক্ষতা",
+          "published": true,
+          "interview": true
+        },
+        {
+          "id": "bk-05-bangladesh-vs-canada",
+          "episode": 5,
+          "youtubeId": "f4wqenYhM9c",
+          "titleEn": "Investing in Bangladesh vs Canada",
+          "titleBn": "বাংলাদেশ বনাম কানাডায় বিনিয়োগ",
+          "published": true,
+          "interview": true
+        },
+        {
+          "id": "bk-06-portfolio-missing-bonds",
+          "episode": 6,
+          "youtubeId": "CV5M21wsBUc",
+          "titleEn": "Why your portfolio is missing bonds",
+          "titleBn": "আপনার পোর্টফোলিওতে কেন বন্ড নেই",
+          "published": true,
+          "interview": true
+        },
+        {
+          "id": "bk-07-treasury-bills-and-bonds",
+          "episode": 7,
+          "youtubeId": "lX509pCMcoA",
+          "titleEn": "Treasury bills & bonds",
+          "titleBn": "ট্রেজারি বিল ও বন্ড",
+          "published": true,
+          "interview": true
+        },
+        {
+          "id": "bk-08-why-is-gold-moving",
+          "episode": 8,
+          "youtubeId": "Bspi6hz9Dn0",
+          "titleEn": "Why is gold moving",
+          "titleBn": "সোনার দাম কেন বদলাচ্ছে",
+          "published": true,
+          "interview": true
+        },
+        {
+          "id": "bk-09-why-bangladeshis-dont-invest",
+          "episode": 9,
+          "youtubeId": "bHgk09VRHF8",
+          "titleEn": "Why Bangladeshis don't invest",
+          "titleBn": "বাংলাদেশিরা কেন বিনিয়োগ করেন না",
+          "published": true,
+          "interview": true
+        },
+        {
+          "id": "bk-10-inside-edge-amc",
+          "episode": 10,
+          "youtubeId": "_GY1z_Wh8hw",
+          "titleEn": "Inside EDGE AMC: wealth creation & fixed income funds",
+          "titleBn": "EDGE AMC-র ভেতরে: সম্পদ গঠন ও ফিক্সড ইনকাম ফান্ড",
+          "published": true,
+          "interview": true
+        },
+        {
+          "id": "bk-11-savings-vs-investing-regulator",
+          "episode": 11,
+          "youtubeId": "Q06IuApPvzM",
+          "titleEn": "Savings vs investing in Bangladesh: a regulator's take",
+          "titleBn": "সঞ্চয় বনাম বিনিয়োগ: একজন নিয়ন্ত্রকের দৃষ্টিভঙ্গি",
+          "published": true,
+          "interview": true
+        },
+        {
+          "id": "bk-12-us-dollar-dominance",
+          "episode": 12,
+          "youtubeId": null,
+          "titleEn": "Is the dominance of the US dollar coming to an end?",
+          "titleBn": "মার্কিন ডলারের আধিপত্য কি শেষ হতে চলেছে?",
+          "published": false,
+          "interview": true,
+          "note": "Master is in the Briddhir Kotha Drive folder (Ep.6.1). Not on YouTube yet; publish once it has a YouTube ID or a Bunny upload."
+        }
+      ]
+    }
+  ]
+}

@@ -33,7 +33,7 @@ Six colours. Everything else is derived from them.
 | ------------- | -------------------------------------- | ---------------------------------- | ------------------------------------------------------------------------------------------ |
 | `bg`          | `#FFFFFF`                              | `#000000`                          |                                                                                            |
 | `surface`     | `#F6F4F1`                              | `#141414`                          | Grouped content, input fills. Warm grey in light mode, matching Ink.                       |
-| `sheet`       | `rgb(255 255 255 / 0.82)` + blur 24px  | `rgb(28 28 30 / 0.78)` + blur 24px | Quiz sheet, nav bar, playlist sheet.                                                       |
+| `sheet`       | `rgb(255 255 255 / 0.92)` + blur 24px  | `rgb(28 28 30 / 0.88)` + blur 24px | Quiz sheet, nav bar, playlist sheet.                                                       |
 | `line`        | `#EEEDEC`                              | `#262524`                          | Hairlines, 1px. From the learn page row dividers.                                          |
 | `text-1`      | `#1B1918`                              | `#F5F4F2`                          | 17.5 / 19.1                                                                                |
 | `text-2`      | `#5E5B57`                              | `#A8A5A0`                          | 6.75 / 8.55. Secondary copy.                                                               |
