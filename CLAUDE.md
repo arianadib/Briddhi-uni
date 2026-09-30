@@ -10,7 +10,9 @@ A learn-by-watching web app. Videos pause for quizzes, and learners earn XP, kee
 
 - `npm run dev`: dev server on http://localhost:3000
 - `npm run lint`, `npm run typecheck`, `npm run format:check`, `npm run build`: CI runs all four on every PR
+- `npm test`: Vitest unit tests (engine, XP, levels, catalogue, every quiz bank); CI runs it too
 - `npm run format`: apply Prettier (with Tailwind class sorting)
+- `node scripts/record-hero.mjs [--dark] [--en]`: record the hero moment to `docs/screenshots/step-5/` (needs `npm run start -- -p 3100` and ffmpeg)
 
 ## Stack
 
@@ -27,6 +29,7 @@ Next.js (App Router, `src/` dir, `@/*` alias), TypeScript strict, Tailwind v4, E
 
 - Content order: Mutual Fund 101 (episode order 0–12, not the site's reversed order), then Investaloy, KOSH FAQ, Briddhir Kotha. Catalog source of truth: `content/catalog.json`.
 - Learners see a video only if it is `published` AND has an approved quiz bank.
+- **Shorts are skipped (owner decision, 30 Sep 2026).** Videos under 390s (`MIN_QUIZ_VIDEO_SECONDS` in `src/lib/quiz/rules.ts`) can't hold a bank under the pacing rules, so they get no quiz and don't appear in Uni. Today that is all of Mutual Fund 101, Investaloy and KOSH FAQ; Uni runs on the long Briddhir Kotha episodes.
 - About 9 questions per video; exactly one is Free, the rest Pro.
 - Free question: video dims, sheet springs up, no skip. One retry on a wrong answer. Show result, one-line explanation, XP flying to the header, then "Continue watching".
 - Pro question: 3-second locked teaser (blurred, small Pro mark, countdown ring), then playback resumes. Never block playback.
