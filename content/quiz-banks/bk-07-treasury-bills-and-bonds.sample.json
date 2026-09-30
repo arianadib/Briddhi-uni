@@ -1,0 +1,251 @@
+{
+  "videoId": "bk-07-treasury-bills-and-bonds",
+  "status": "draft",
+  "isSample": true,
+  "sampleNote": "SAMPLE bank to exercise the player and quiz flow. Timestamps are placeholders and the questions were not written from the episode. Pending content-producer and Uni-lead review; do not publish as is.",
+  "pausePoints": [
+    {
+      "id": "bk07-p1",
+      "atSeconds": 240,
+      "question": {
+        "tier": "free",
+        "conceptTag": "treasury bill",
+        "promptBn": "ট্রেজারি বিল আসলে কী?",
+        "promptEn": "What is a treasury bill?",
+        "options": [
+          {
+            "bn": "ব্যাংকে একটি স্থায়ী আমানত",
+            "en": "A fixed deposit at a bank"
+          },
+          {
+            "bn": "সরকারকে দেওয়া স্বল্পমেয়াদি ঋণ",
+            "en": "A short-term loan to the government"
+          },
+          {
+            "bn": "তালিকাভুক্ত কোম্পানির একটি শেয়ার",
+            "en": "A share in a listed company"
+          }
+        ],
+        "correctIndex": 1,
+        "explanationBn": "ট্রেজারি বিল হলো সরকারের স্বল্পমেয়াদি ঋণ, সাধারণত এক বছর বা তার কম সময়ের জন্য।",
+        "explanationEn": "A treasury bill is short-term government borrowing, usually for a year or less."
+      }
+    },
+    {
+      "id": "bk07-p2",
+      "atSeconds": 420,
+      "question": {
+        "tier": "pro",
+        "conceptTag": "treasury bond",
+        "promptBn": "ট্রেজারি বন্ড ট্রেজারি বিল থেকে কীভাবে আলাদা?",
+        "promptEn": "How is a treasury bond different from a treasury bill?",
+        "options": [
+          {
+            "bn": "এটি কোনো সুদ দেয় না",
+            "en": "It pays no interest"
+          },
+          {
+            "bn": "এটি শুধু ব্যাংক কিনতে পারে",
+            "en": "Only banks can buy it"
+          },
+          {
+            "bn": "এর মেয়াদ বেশি, সাধারণত কয়েক বছর",
+            "en": "It lasts longer, usually several years"
+          }
+        ],
+        "correctIndex": 2,
+        "explanationBn": "বিল এক বছরের মধ্যে শেষ হয়; বন্ড চলে কয়েক বছর ধরে।",
+        "explanationEn": "Bills end within a year; bonds run for several years."
+      }
+    },
+    {
+      "id": "bk07-p3",
+      "atSeconds": 600,
+      "question": {
+        "tier": "pro",
+        "conceptTag": "issuer",
+        "promptBn": "বাংলাদেশে ট্রেজারি বিল ও বন্ড কে নিলামে তোলে?",
+        "promptEn": "Who auctions treasury bills and bonds in Bangladesh?",
+        "options": [
+          {
+            "bn": "সরকারের পক্ষে বাংলাদেশ ব্যাংক",
+            "en": "Bangladesh Bank, on behalf of the government"
+          },
+          {
+            "bn": "স্টক এক্সচেঞ্জ",
+            "en": "The stock exchange"
+          },
+          {
+            "bn": "প্রতিটি বাণিজ্যিক ব্যাংক নিজে",
+            "en": "Each commercial bank on its own"
+          }
+        ],
+        "correctIndex": 0,
+        "explanationBn": "বাংলাদেশ ব্যাংক সরকারের পক্ষে এগুলো নিলাম করে।",
+        "explanationEn": "Bangladesh Bank runs the auctions for the government."
+      }
+    },
+    {
+      "id": "bk07-p4",
+      "atSeconds": 780,
+      "question": {
+        "tier": "pro",
+        "conceptTag": "coupon",
+        "promptBn": "বন্ডের কুপন বলতে কী বোঝায়?",
+        "promptEn": "What is a bond's coupon?",
+        "options": [
+          {
+            "bn": "বন্ড কেনার ছাড়ের টিকিট",
+            "en": "A discount voucher for buying the bond"
+          },
+          {
+            "bn": "বন্ড বিক্রির ফি",
+            "en": "The fee for selling the bond"
+          },
+          {
+            "bn": "নিয়মিত যে সুদ বন্ড দেয়",
+            "en": "The regular interest the bond pays"
+          }
+        ],
+        "correctIndex": 2,
+        "explanationBn": "কুপন হলো বন্ডের নির্ধারিত নিয়মিত সুদ।",
+        "explanationEn": "The coupon is the bond's fixed, regular interest payment."
+      }
+    },
+    {
+      "id": "bk07-p5",
+      "atSeconds": 960,
+      "question": {
+        "tier": "pro",
+        "conceptTag": "interest rates and prices",
+        "promptBn": "সুদের হার বাড়লে আগের বন্ডের দাম সাধারণত কী হয়?",
+        "promptEn": "When interest rates rise, what usually happens to the price of existing bonds?",
+        "options": [
+          {
+            "bn": "কিছুই বদলায় না",
+            "en": "Nothing changes"
+          },
+          {
+            "bn": "দাম কমে",
+            "en": "It falls"
+          },
+          {
+            "bn": "দাম বাড়ে",
+            "en": "It rises"
+          }
+        ],
+        "correctIndex": 1,
+        "explanationBn": "নতুন বন্ড বেশি সুদ দিলে পুরোনো বন্ডের চাহিদা কমে, তাই দাম কমে।",
+        "explanationEn": "New bonds pay more, so older ones are worth less and their price falls."
+      }
+    },
+    {
+      "id": "bk07-p6",
+      "atSeconds": 1140,
+      "question": {
+        "tier": "pro",
+        "conceptTag": "maturity",
+        "promptBn": "বন্ডের মেয়াদপূর্তি (ম্যাচিউরিটি) কী?",
+        "promptEn": "What is a bond's maturity?",
+        "options": [
+          {
+            "bn": "যে তারিখে ঋণের টাকা ফেরত দেওয়া হয়",
+            "en": "The date the loan is repaid"
+          },
+          {
+            "bn": "প্রথম সুদ দেওয়ার তারিখ",
+            "en": "The date of the first interest payment"
+          },
+          {
+            "bn": "বন্ড কেনার শেষ তারিখ",
+            "en": "The last day you can buy the bond"
+          }
+        ],
+        "correctIndex": 0,
+        "explanationBn": "মেয়াদপূর্তিতে বিনিয়োগকারী মূল টাকা ফেরত পান।",
+        "explanationEn": "At maturity the investor gets the original amount back."
+      }
+    },
+    {
+      "id": "bk07-p7",
+      "atSeconds": 1320,
+      "question": {
+        "tier": "pro",
+        "conceptTag": "time horizon",
+        "promptBn": "কেউ বিল ও বন্ড দুটোই কেন রাখতে পারেন?",
+        "promptEn": "Why might someone hold both bills and bonds?",
+        "options": [
+          {
+            "bn": "নিশ্চিত দ্বিগুণ লাভের জন্য",
+            "en": "To guarantee double returns"
+          },
+          {
+            "bn": "টাকা বিভিন্ন মেয়াদে ভাগ করে রাখতে",
+            "en": "To spread money across different time horizons"
+          },
+          {
+            "bn": "কর পুরোপুরি এড়াতে",
+            "en": "To avoid tax completely"
+          }
+        ],
+        "correctIndex": 1,
+        "explanationBn": "বিভিন্ন মেয়াদে রাখলে কিছু টাকা আগে হাতে আসে, কিছু পরে।",
+        "explanationEn": "Mixing terms means some money comes back sooner and some later."
+      }
+    },
+    {
+      "id": "bk07-p8",
+      "atSeconds": 1500,
+      "question": {
+        "tier": "pro",
+        "conceptTag": "yield",
+        "promptBn": "বন্ডের ইল্ড বলতে কী বোঝায়?",
+        "promptEn": "What is a bond's yield?",
+        "options": [
+          {
+            "bn": "বন্ডের মোট দাম",
+            "en": "The bond's total price"
+          },
+          {
+            "bn": "বন্ড ইস্যুকারীর নাম",
+            "en": "The name of the issuer"
+          },
+          {
+            "bn": "দামের তুলনায় বন্ড থেকে পাওয়া আয়",
+            "en": "The return it pays relative to its price"
+          }
+        ],
+        "correctIndex": 2,
+        "explanationBn": "ইল্ড দেখায় দামের তুলনায় বন্ডটি কত আয় দেয়।",
+        "explanationEn": "Yield shows how much a bond pays compared with what it costs."
+      }
+    },
+    {
+      "id": "bk07-p9",
+      "atSeconds": 1680,
+      "question": {
+        "tier": "pro",
+        "conceptTag": "secondary market",
+        "promptBn": "বন্ডের সেকেন্ডারি মার্কেট কী?",
+        "promptEn": "What is the secondary market for bonds?",
+        "options": [
+          {
+            "bn": "যেখানে বিনিয়োগকারীরা নিজেদের মধ্যে পুরোনো বন্ড কেনাবেচা করেন",
+            "en": "Where investors buy and sell existing bonds among themselves"
+          },
+          {
+            "bn": "যেখানে সরকার প্রথম বন্ড বিক্রি করে",
+            "en": "Where the government first sells bonds"
+          },
+          {
+            "bn": "মেয়াদোত্তীর্ণ বন্ডের তালিকা",
+            "en": "A list of expired bonds"
+          }
+        ],
+        "correctIndex": 0,
+        "explanationBn": "প্রথম বিক্রির পর বন্ড সেকেন্ডারি মার্কেটে হাতবদল হয়।",
+        "explanationEn": "After the first sale, bonds change hands on the secondary market."
+      }
+    }
+  ]
+}
