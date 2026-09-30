@@ -5,7 +5,8 @@
     "Series are listed in the default learning order. Videos are listed in teaching order.",
     "Bangla titles and all descriptions are draft copy pending content review.",
     "A video reaches learners only when published is true AND its quiz bank is published.",
-    "interview: true marks interview-style episodes, which are quizzed on principles only, never a guest's view on a market, asset or product."
+    "interview: true marks interview-style episodes, which are quizzed on principles only, never a guest's view on a market, asset or product.",
+    "durationSeconds comes from YouTube (fetched 30 Sep 2026). Videos shorter than the quiz minimum (see src/lib/catalog.ts) are shorts: they get no quiz and are skipped in Uni for now."
   ],
   "series": [
     {
@@ -22,6 +23,7 @@
           "id": "mf101-00-series-intro",
           "episode": 0,
           "youtubeId": "-SFJb1uzq8k",
+          "durationSeconds": 13,
           "titleEn": "Series intro",
           "titleBn": "সিরিজ পরিচিতি",
           "published": true
@@ -30,6 +32,7 @@
           "id": "mf101-01-what-is-a-mutual-fund",
           "episode": 1,
           "youtubeId": "aOIVLxjDe3Y",
+          "durationSeconds": 48,
           "titleEn": "What is a mutual fund",
           "titleBn": "মিউচুয়াল ফান্ড কী",
           "published": true
@@ -38,6 +41,7 @@
           "id": "mf101-02-what-is-nav",
           "episode": 2,
           "youtubeId": "0cWdKh2t5Jg",
+          "durationSeconds": 48,
           "titleEn": "What is NAV",
           "titleBn": "NAV কী",
           "published": true
@@ -46,6 +50,7 @@
           "id": "mf101-03-open-and-closed-ended-funds",
           "episode": 3,
           "youtubeId": "thM31u3IWHA",
+          "durationSeconds": 66,
           "titleEn": "Open-ended & closed-ended funds",
           "titleBn": "ওপেন-এন্ড ও ক্লোজড-এন্ড ফান্ড",
           "published": true
@@ -54,6 +59,7 @@
           "id": "mf101-04-sip-and-lumpsum",
           "episode": 4,
           "youtubeId": "TseSLK3Egg0",
+          "durationSeconds": 53,
           "titleEn": "SIP & lumpsum",
           "titleBn": "SIP ও এককালীন বিনিয়োগ",
           "published": true
@@ -62,6 +68,7 @@
           "id": "mf101-05-taka-cost-averaging",
           "episode": 5,
           "youtubeId": "UoK4UENaFxk",
+          "durationSeconds": 62,
           "titleEn": "Taka cost averaging",
           "titleBn": "টাকা কস্ট অ্যাভারেজিং",
           "published": true
@@ -70,6 +77,7 @@
           "id": "mf101-06-types-of-mutual-funds",
           "episode": 6,
           "youtubeId": "qYOa75ZmOk0",
+          "durationSeconds": 103,
           "titleEn": "Types of mutual funds",
           "titleBn": "মিউচুয়াল ফান্ডের ধরন",
           "published": true
@@ -78,6 +86,7 @@
           "id": "mf101-07-what-is-a-custodian",
           "episode": 7,
           "youtubeId": "HLVkw2SFCE8",
+          "durationSeconds": 56,
           "titleEn": "What is a custodian",
           "titleBn": "কাস্টোডিয়ান কী",
           "published": true
@@ -86,6 +95,7 @@
           "id": "mf101-08-what-is-a-trustee",
           "episode": 8,
           "youtubeId": "HBSLi2amer4",
+          "durationSeconds": 60,
           "titleEn": "What is a trustee",
           "titleBn": "ট্রাস্টি কী",
           "published": true
@@ -94,6 +104,7 @@
           "id": "mf101-09-where-mutual-funds-invest",
           "episode": 9,
           "youtubeId": "puB8rGCEM3s",
+          "durationSeconds": 61,
           "titleEn": "Where mutual funds invest",
           "titleBn": "মিউচুয়াল ফান্ড কোথায় বিনিয়োগ করে",
           "published": true
@@ -102,6 +113,7 @@
           "id": "mf101-10-expense-ratio",
           "episode": 10,
           "youtubeId": "Qx_fl-hHdJo",
+          "durationSeconds": 85,
           "titleEn": "Expense ratio",
           "titleBn": "এক্সপেন্স রেশিও",
           "published": true
@@ -110,6 +122,7 @@
           "id": "mf101-11-why-invest-in-mutual-funds",
           "episode": 11,
           "youtubeId": "Cv-G2EohcXQ",
+          "durationSeconds": 59,
           "titleEn": "Why invest in mutual funds",
           "titleBn": "কেন মিউচুয়াল ফান্ডে বিনিয়োগ করবেন",
           "published": true
@@ -118,6 +131,7 @@
           "id": "mf101-12-when-to-start-investing",
           "episode": 12,
           "youtubeId": "gplKHtssPwY",
+          "durationSeconds": 56,
           "titleEn": "When to start investing",
           "titleBn": "কখন বিনিয়োগ শুরু করবেন",
           "published": true
@@ -138,6 +152,7 @@
           "id": "investaloy-01-types-and-risk",
           "episode": 1,
           "youtubeId": "soeiaGkZwJw",
+          "durationSeconds": 78,
           "titleEn": "Types of open-end funds and their risk profiles",
           "titleBn": "ওপেন-এন্ড ফান্ডের ধরন ও তাদের ঝুঁকি",
           "published": true
@@ -146,6 +161,7 @@
           "id": "investaloy-02-who-manages-funds",
           "episode": 2,
           "youtubeId": "j7V-XX3CuPQ",
+          "durationSeconds": 94,
           "titleEn": "Which institutions manage open-end funds",
           "titleBn": "কোন প্রতিষ্ঠান ওপেন-এন্ড ফান্ড পরিচালনা করে",
           "published": true
@@ -154,6 +170,7 @@
           "id": "investaloy-03-choosing-a-fund",
           "episode": 3,
           "youtubeId": "RA4EVgBVSb0",
+          "durationSeconds": 108,
           "titleEn": "Choosing an open-end fund",
           "titleBn": "ওপেন-এন্ড ফান্ড বাছাই",
           "published": true
@@ -162,6 +179,7 @@
           "id": "investaloy-04-how-to-invest",
           "episode": 4,
           "youtubeId": "Mvkjrx13gH8",
+          "durationSeconds": 108,
           "titleEn": "How to invest in open-end funds",
           "titleBn": "ওপেন-এন্ড ফান্ডে কীভাবে বিনিয়োগ করবেন",
           "published": true
@@ -170,6 +188,7 @@
           "id": "investaloy-05-1000-taka-formula",
           "episode": 5,
           "youtubeId": "s142p80obQ8",
+          "durationSeconds": 118,
           "titleEn": "The ৳1,000 investment formula",
           "titleBn": "১,০০০ টাকার Investment Formula",
           "published": true
@@ -190,6 +209,7 @@
           "id": "kosh-01-alternative-investments",
           "episode": 1,
           "youtubeId": "WpabttjsOts",
+          "durationSeconds": 63,
           "titleEn": "The truth about alternative investments",
           "titleBn": "বিকল্প বিনিয়োগের আসল কথা",
           "published": true
@@ -198,6 +218,7 @@
           "id": "kosh-02-fake-experts",
           "episode": 2,
           "youtubeId": "7237XHUxGv4",
+          "durationSeconds": 51,
           "titleEn": "Stop following fake investment experts",
           "titleBn": "ভুয়া বিনিয়োগ বিশেষজ্ঞদের অনুসরণ বন্ধ করুন",
           "published": true,
@@ -207,6 +228,7 @@
           "id": "kosh-03-halal-investment",
           "episode": 3,
           "youtubeId": "WzqX_TMrYas",
+          "durationSeconds": 63,
           "titleEn": "Halal investment: what to check",
           "titleBn": "হালাল বিনিয়োগ: কী যাচাই করবেন",
           "published": true,
@@ -216,6 +238,7 @@
           "id": "kosh-04-biggest-beginner-mistake",
           "episode": 4,
           "youtubeId": "ZaAQFtmok8s",
+          "durationSeconds": 42,
           "titleEn": "The biggest beginner mistake",
           "titleBn": "নতুনদের সবচেয়ে বড় ভুল",
           "published": true
@@ -236,6 +259,7 @@
           "id": "bk-01-alternative-investing-101",
           "episode": 1,
           "youtubeId": "IehmS7lBX3w",
+          "durationSeconds": 1959,
           "titleEn": "Alternative Investing 101: The Bangladesh story",
           "titleBn": "বিকল্প বিনিয়োগ ১০১: বাংলাদেশের গল্প",
           "published": true,
@@ -245,6 +269,7 @@
           "id": "bk-02-real-estate-101",
           "episode": 2,
           "youtubeId": "iXCqZ-RjVfo",
+          "durationSeconds": 2920,
           "titleEn": "Real Estate 101 ft. CPDL",
           "titleBn": "রিয়েল এস্টেট ১০১",
           "published": true,
@@ -254,6 +279,7 @@
           "id": "bk-03-a-chairmans-take",
           "episode": 3,
           "youtubeId": "Md96BqW436E",
+          "durationSeconds": 2914,
           "titleEn": "A chairman's take on Bangladesh",
           "titleBn": "বাংলাদেশ নিয়ে একজন চেয়ারম্যানের ভাবনা",
           "published": true,
@@ -263,6 +289,7 @@
           "id": "bk-04-mastering-personal-finance",
           "episode": 4,
           "youtubeId": "7P4xhQ31_LE",
+          "durationSeconds": 2833,
           "titleEn": "Mastering personal finance",
           "titleBn": "ব্যক্তিগত অর্থব্যবস্থাপনায় দক্ষতা",
           "published": true,
@@ -272,6 +299,7 @@
           "id": "bk-05-bangladesh-vs-canada",
           "episode": 5,
           "youtubeId": "f4wqenYhM9c",
+          "durationSeconds": 2636,
           "titleEn": "Investing in Bangladesh vs Canada",
           "titleBn": "বাংলাদেশ বনাম কানাডায় বিনিয়োগ",
           "published": true,
@@ -281,6 +309,7 @@
           "id": "bk-06-portfolio-missing-bonds",
           "episode": 6,
           "youtubeId": "CV5M21wsBUc",
+          "durationSeconds": 2170,
           "titleEn": "Why your portfolio is missing bonds",
           "titleBn": "আপনার পোর্টফোলিওতে কেন বন্ড নেই",
           "published": true,
@@ -290,6 +319,7 @@
           "id": "bk-07-treasury-bills-and-bonds",
           "episode": 7,
           "youtubeId": "lX509pCMcoA",
+          "durationSeconds": 1951,
           "titleEn": "Treasury bills & bonds",
           "titleBn": "ট্রেজারি বিল ও বন্ড",
           "published": true,
@@ -299,6 +329,7 @@
           "id": "bk-08-why-is-gold-moving",
           "episode": 8,
           "youtubeId": "Bspi6hz9Dn0",
+          "durationSeconds": 2698,
           "titleEn": "Why is gold moving",
           "titleBn": "সোনার দাম কেন বদলাচ্ছে",
           "published": true,
@@ -308,6 +339,7 @@
           "id": "bk-09-why-bangladeshis-dont-invest",
           "episode": 9,
           "youtubeId": "bHgk09VRHF8",
+          "durationSeconds": 1930,
           "titleEn": "Why Bangladeshis don't invest",
           "titleBn": "বাংলাদেশিরা কেন বিনিয়োগ করেন না",
           "published": true,
@@ -317,6 +349,7 @@
           "id": "bk-10-inside-edge-amc",
           "episode": 10,
           "youtubeId": "_GY1z_Wh8hw",
+          "durationSeconds": 1611,
           "titleEn": "Inside EDGE AMC: wealth creation & fixed income funds",
           "titleBn": "EDGE AMC-র ভেতরে: সম্পদ গঠন ও ফিক্সড ইনকাম ফান্ড",
           "published": true,
@@ -326,6 +359,7 @@
           "id": "bk-11-savings-vs-investing-regulator",
           "episode": 11,
           "youtubeId": "Q06IuApPvzM",
+          "durationSeconds": 2801,
           "titleEn": "Savings vs investing in Bangladesh: a regulator's take",
           "titleBn": "সঞ্চয় বনাম বিনিয়োগ: একজন নিয়ন্ত্রকের দৃষ্টিভঙ্গি",
           "published": true,
@@ -335,6 +369,7 @@
           "id": "bk-12-us-dollar-dominance",
           "episode": 12,
           "youtubeId": null,
+          "durationSeconds": null,
           "titleEn": "Is the dominance of the US dollar coming to an end?",
           "titleBn": "মার্কিন ডলারের আধিপত্য কি শেষ হতে চলেছে?",
           "published": false,

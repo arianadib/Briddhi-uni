@@ -1,0 +1,251 @@
+{
+  "videoId": "bk-06-portfolio-missing-bonds",
+  "status": "draft",
+  "isSample": true,
+  "sampleNote": "SAMPLE bank to exercise the player and quiz flow. Timestamps are placeholders and the questions were not written from the episode. Pending content-producer and Uni-lead review; do not publish as is.",
+  "pausePoints": [
+    {
+      "id": "bk06-p1",
+      "atSeconds": 210,
+      "question": {
+        "tier": "free",
+        "conceptTag": "diversification",
+        "promptBn": "পোর্টফোলিও বৈচিত্র্যময় করা মানে কী?",
+        "promptEn": "What does it mean to diversify a portfolio?",
+        "options": [
+          {
+            "bn": "সব টাকা নগদে রাখা",
+            "en": "Keeping all your money in cash"
+          },
+          {
+            "bn": "বিভিন্ন ধরনের বিনিয়োগে টাকা ভাগ করে রাখা",
+            "en": "Spreading money across different kinds of investments"
+          },
+          {
+            "bn": "সব টাকা সবচেয়ে ভালো চলা শেয়ারে রাখা",
+            "en": "Putting all your money in the best-performing share"
+          }
+        ],
+        "correctIndex": 1,
+        "explanationBn": "টাকা ভাগ করে রাখলে একটি বিনিয়োগের ক্ষতি পুরো পোর্টফোলিওকে কম প্রভাবিত করে।",
+        "explanationEn": "Spreading money means one investment's loss hurts the whole portfolio less."
+      }
+    },
+    {
+      "id": "bk06-p2",
+      "atSeconds": 450,
+      "question": {
+        "tier": "pro",
+        "conceptTag": "role of bonds",
+        "promptBn": "পোর্টফোলিওতে বন্ড সাধারণত কী ভূমিকা রাখে?",
+        "promptEn": "What role do bonds usually play in a portfolio?",
+        "options": [
+          {
+            "bn": "দ্রুত দ্বিগুণ লাভ",
+            "en": "Doubling money quickly"
+          },
+          {
+            "bn": "কোনো ঝুঁকি ছাড়া নিশ্চিত লাভ",
+            "en": "Guaranteed profit with no risk"
+          },
+          {
+            "bn": "শেয়ারের চেয়ে স্থির আয় ও কম ওঠানামা",
+            "en": "Steadier income and smaller swings than shares"
+          }
+        ],
+        "correctIndex": 2,
+        "explanationBn": "বন্ড সাধারণত নিয়মিত আয় দেয় এবং শেয়ারের চেয়ে কম ওঠানামা করে।",
+        "explanationEn": "Bonds usually pay regular income and move less than shares."
+      }
+    },
+    {
+      "id": "bk06-p3",
+      "atSeconds": 690,
+      "question": {
+        "tier": "pro",
+        "conceptTag": "credit risk",
+        "promptBn": "ক্রেডিট ঝুঁকি কী?",
+        "promptEn": "What is credit risk?",
+        "options": [
+          {
+            "bn": "ঋণগ্রহীতা টাকা ফেরত না দেওয়ার সম্ভাবনা",
+            "en": "The chance the borrower doesn't repay"
+          },
+          {
+            "bn": "ক্রেডিট কার্ডের সুদ",
+            "en": "Credit card interest"
+          },
+          {
+            "bn": "শেয়ারবাজার বন্ধ হওয়ার ঝুঁকি",
+            "en": "The risk of the stock market closing"
+          }
+        ],
+        "correctIndex": 0,
+        "explanationBn": "ইস্যুকারী ঋণ শোধ করতে না পারলে বিনিয়োগকারী ক্ষতিগ্রস্ত হন।",
+        "explanationEn": "If the issuer can't repay, the investor loses money."
+      }
+    },
+    {
+      "id": "bk06-p4",
+      "atSeconds": 930,
+      "question": {
+        "tier": "pro",
+        "conceptTag": "government bond",
+        "promptBn": "সরকারি বন্ড কী?",
+        "promptEn": "What is a government bond?",
+        "options": [
+          {
+            "bn": "সরকারি কোম্পানির শেয়ার",
+            "en": "A share in a state-owned company"
+          },
+          {
+            "bn": "সরকারি চাকরির বোনাস",
+            "en": "A government job bonus"
+          },
+          {
+            "bn": "সরকারকে দেওয়া দীর্ঘমেয়াদি ঋণ",
+            "en": "A long-term loan to the government"
+          }
+        ],
+        "correctIndex": 2,
+        "explanationBn": "সরকার টাকা ধার নিতে বন্ড ইস্যু করে এবং সুদসহ ফেরত দেয়।",
+        "explanationEn": "Governments issue bonds to borrow, and repay them with interest."
+      }
+    },
+    {
+      "id": "bk06-p5",
+      "atSeconds": 1170,
+      "question": {
+        "tier": "pro",
+        "conceptTag": "fixed income fund",
+        "promptBn": "ফিক্সড ইনকাম ফান্ড কী?",
+        "promptEn": "What is a fixed income fund?",
+        "options": [
+          {
+            "bn": "যে ফান্ড শুধু সোনায় বিনিয়োগ করে",
+            "en": "A fund that only invests in gold"
+          },
+          {
+            "bn": "যে ফান্ড মূলত বন্ড ও এ ধরনের ঋণে বিনিয়োগ করে",
+            "en": "A fund that invests mainly in bonds and similar debt"
+          },
+          {
+            "bn": "যে ফান্ড প্রতি মাসে একই লাভ নিশ্চিত করে",
+            "en": "A fund that guarantees the same profit every month"
+          }
+        ],
+        "correctIndex": 1,
+        "explanationBn": "ফিক্সড ইনকাম ফান্ড মূলত বন্ডের মতো ঋণ-জাতীয় বিনিয়োগ ধরে রাখে।",
+        "explanationEn": "A fixed income fund mostly holds debt such as bonds."
+      }
+    },
+    {
+      "id": "bk06-p6",
+      "atSeconds": 1410,
+      "question": {
+        "tier": "pro",
+        "conceptTag": "face value",
+        "promptBn": "বন্ডের ফেস ভ্যালু কী?",
+        "promptEn": "What is a bond's face value?",
+        "options": [
+          {
+            "bn": "মেয়াদ শেষে যে পরিমাণ টাকা ফেরত দেওয়া হয়",
+            "en": "The amount repaid at maturity"
+          },
+          {
+            "bn": "আজকের বাজারদর",
+            "en": "Today's market price"
+          },
+          {
+            "bn": "বছরে পাওয়া মোট সুদ",
+            "en": "The total interest paid in a year"
+          }
+        ],
+        "correctIndex": 0,
+        "explanationBn": "ফেস ভ্যালু হলো বন্ডের মূল অঙ্ক, যা মেয়াদ শেষে ফেরত আসে।",
+        "explanationEn": "Face value is the bond's principal, paid back at maturity."
+      }
+    },
+    {
+      "id": "bk06-p7",
+      "atSeconds": 1650,
+      "question": {
+        "tier": "pro",
+        "conceptTag": "risk tolerance",
+        "promptBn": "ঝুঁকি সহনশীলতা বলতে কী বোঝায়?",
+        "promptEn": "What does risk tolerance mean?",
+        "options": [
+          {
+            "bn": "কত দ্রুত আপনি শেয়ার কেনেন",
+            "en": "How quickly you buy shares"
+          },
+          {
+            "bn": "বিনিয়োগের দাম ওঠানামা আপনি কতটা সামলাতে পারেন",
+            "en": "How much ups and downs in value you can handle"
+          },
+          {
+            "bn": "আপনার মোট আয় কত",
+            "en": "How much you earn in total"
+          }
+        ],
+        "correctIndex": 1,
+        "explanationBn": "ঝুঁকি সহনশীলতা ঠিক করে পোর্টফোলিওতে কী কী রাখা উচিত।",
+        "explanationEn": "Risk tolerance shapes what belongs in a portfolio."
+      }
+    },
+    {
+      "id": "bk06-p8",
+      "atSeconds": 1890,
+      "question": {
+        "tier": "pro",
+        "conceptTag": "asset allocation",
+        "promptBn": "অ্যাসেট অ্যালোকেশন কী?",
+        "promptEn": "What is asset allocation?",
+        "options": [
+          {
+            "bn": "কোন ব্যাংকে অ্যাকাউন্ট খুলবেন",
+            "en": "Which bank to open an account with"
+          },
+          {
+            "bn": "প্রতিদিন কতবার ট্রেড করবেন",
+            "en": "How many trades to make each day"
+          },
+          {
+            "bn": "শেয়ার, বন্ড ও নগদের মধ্যে টাকা কীভাবে ভাগ করবেন",
+            "en": "How you divide money between shares, bonds and cash"
+          }
+        ],
+        "correctIndex": 2,
+        "explanationBn": "অ্যাসেট অ্যালোকেশন হলো বিভিন্ন ধরনের সম্পদে টাকার ভাগ।",
+        "explanationEn": "Asset allocation is the split of money across kinds of assets."
+      }
+    },
+    {
+      "id": "bk06-p9",
+      "atSeconds": 2100,
+      "question": {
+        "tier": "pro",
+        "conceptTag": "rebalancing",
+        "promptBn": "পোর্টফোলিও রিব্যালান্স করা মানে কী?",
+        "promptEn": "What does rebalancing a portfolio mean?",
+        "options": [
+          {
+            "bn": "পরিকল্পিত ভাগে ফিরিয়ে আনতে মাঝে মাঝে সমন্বয় করা",
+            "en": "Adjusting now and then to get back to your planned mix"
+          },
+          {
+            "bn": "সব বিনিয়োগ একবারে বিক্রি করা",
+            "en": "Selling every investment at once"
+          },
+          {
+            "bn": "প্রতিদিন নতুন ফান্ডে যাওয়া",
+            "en": "Moving to a new fund every day"
+          }
+        ],
+        "correctIndex": 0,
+        "explanationBn": "বাজার ওঠানামায় ভাগ বদলে যায়; রিব্যালান্স তা আবার পরিকল্পনামতো করে।",
+        "explanationEn": "Markets shift your mix over time; rebalancing restores the plan."
+      }
+    }
+  ]
+}
