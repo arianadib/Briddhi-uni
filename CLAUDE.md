@@ -51,6 +51,13 @@ Next.js (App Router, `src/` dir, `@/*` alias), TypeScript strict, Tailwind v4, E
 
 ## Design principles
 
+Approved brand decisions (details in `docs/DESIGN.md`):
+
+- **Fonts:** Neue Haas Grotesk for Latin, Anek Bangla for Bangla.
+- **Colour meaning:** Briddhi Blue `#164C9E` is for actions; Briddhi Orange `#F6851F` is for rewards only.
+- **Orange fills:** never put white text on orange (2.53:1). Text on an orange fill is dark ink.
+- **Dark mode:** true black `#000`.
+
 - Apple-level craft, Briddhi-branded. Fewer things, each one finished. Before shipping a screen, remove one thing.
 - One hero moment: the video pausing and the question rising in. Spend boldness there; everything else stays quiet.
 - Depth through hierarchy (type size, weight, spacing, subtle translucency), not ornament. Vary radius and elevation by importance.
